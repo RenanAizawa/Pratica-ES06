@@ -1,0 +1,23 @@
+{
+  "name": "hof",
+  "version": "1.0.0",
+  "description": "Repositorio desenvolvido para criar tarefas e atividades para exercitar a prática de High Order Functions.",
+  "main": "Practice_Array.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanAizawa/Pratica-ES06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanAizawa/Pratica-ES06/issues"
+  },
+  "homepage": "https://github.com/RenanAizawa/Pratica-ES06#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
