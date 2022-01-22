@@ -59,6 +59,22 @@ const books = [
       },
       releaseYear: 1928,
     },
-  ];
+];
   
-  // Adicione o código do exercício aqui:
+// Adicione o código do exercício aqui:
+
+
+// Verificar se função sum soma corretamente numeros
+
+const sum = (num1, num2) => {
+if (num1 === ' ' || num2 === ' ') {
+  return undefined
+} else if (typeof num1 !== 'number' || typeof num2 !== 'number') {
+  return NaN
+} else {
+  return num1 + num2
+}
+}
+
+// console.log(sum(1, 1));
+module.exports = sum;
