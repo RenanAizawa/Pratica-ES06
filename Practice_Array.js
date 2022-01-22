@@ -76,5 +76,16 @@ if (num1 === ' ' || num2 === ' ') {
 }
 }
 
+const createMenu = () => {};
+
+
+
+
+
+
+
+
+
+
 // console.log(sum(1, 1));
-module.exports = sum;
+module.exports = {sum, createMenu};
